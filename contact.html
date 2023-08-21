@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>My library : contact page </title>
+ <link rel="stylesheet" href="library.css"> 
+  <script src="https://kit.fontawesome.com/67bd86ffdc.js" crossorigin="anonymous"></script>
+  <script src="hamburger.js" defer ></script>
+</head>
+<body>
+<div id="wrapper"> 
+	<!-- to style for smaller screen --> 
+	<link rel="stylesheet" href="library.css"> 
+	<script src="https://kit.fontawesome.com/67bd86ffdc.js" crossorigin="anonymous"></script>
+	  <a href="/" id="navbar__logo"><i class="fas fa-search"></i>
+	  <label for="site-search">Search the site:</label>
+	  <button class = "btn1" aria-label="Search">Search</button>
+	  <input type="search" placeholder = "Are you searching for something?"id=site-search name="q">	  
+  	<a class = "button" onclick= "window.location.href = 'account.html';" aria-label="My account">My account</a> 
+   <header>
+	  <h1>Your library</h1>
+	  <a id="hamburger">
+		  <i class="fa-solid fa-bars"></i>
+	  </a>
+  </header>
+
+<nav id="mainNav" >
+	<a class = "button" onclick ="window.location.href = 'index.html';" aria-label="Home">Home</button>
+	<a class = "button" onclick= "window.location.href = 'schedule.html';" aria-label="Libraries">Libraries</button>
+	<a class = "button" onclick= "window.location.href = '/classes.html';" aria-label="What's on">What's on</a>
+	<a class = "button" onclick= "window.location.href = '/booking.html';" aria-label="Book an activity">Book an activity</a>
+	<a class = "button" onclick= "window.location.href = 'account.html';" aria-label="My account">My account</a>
+	</nav>
+<main>
+    <h1>Contact your library</h1>
+	<h3>Please use this form to tell us what you think of our website, any changes that you would like to se or a compliment to our staff. We will get back to you as soon as we can</h3>
+    <div>
+    <p class="form" >Required (*) </p>
+    
+	<form action="" method="post" id="form"> 
+	<fieldset>
+	<label for="name"> Name*: </label>
+	<input type="text" name ="name"  id="name" accesskey="N" placeholder="Your name" required="true" aria-label="Name">
+	
+	<label for="email"> E-mail*</label>
+	<input type="email" name ="email"  id="email" placeholder="Your email" required="true"  accesskey="E" aria-label="email">
+
+    <label for="message">Message* : </label> 
+    <textarea name ="message"  id="message" rows="5" cols="35" required="true"  aria-label="Message"> </textarea>
+
+	<button type="submit" name="submit" id="submit" alt="submit" value="Submit" aria-label="Send"> Send Now</button>
+	</fieldset>
+	</form>
+</div>
+	
+</main>
+<footer>
+	<section class = "social__media">
+		<div class="social__media--wrap">
+			<p class = "website__rights">&copy; My library website. 2023 All rights reserved.</p>				
+			<div class="social__icons">
+				<a href="/" class="social__icon--link" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+				<a href="/" class="social__icon--link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+				<a href="/" class="social__icon--link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+			</div>
+		</div>	
+	</section>
+	  <!-- Back to Top button -->	  
+	<button class = "button" onclick = "window.location.href='https/www.norfolk.gov.uk';" aria-label ="Other County Council Services">Other County Council Services</a>
+		<button id="backToTopBtn" aria-label="Back to Top" title="Back to Top"><i class="fas fa-arrow-up"></i>
+		  </button>
+</footer>
+</div>
+	<script src="hamburger.js" defer ></script>
+	<script src="dom.js" defer ></script>
+	<!-- <script src="map.js" defer ></script> -->
+	<script src="scrollToTop.js" defer ></script>
+</body>
+</html>

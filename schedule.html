@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Library</title>
+ <link rel="stylesheet" href="library.css"> 
+  <script src="https://kit.fontawesome.com/67bd86ffdc.js" crossorigin="anonymous"></script>
+  <a href="/" id="navbar__logo"><i class="fas fa-search"></i>
+	<label for="site-search">Search the site:</label>
+	<button class = "btn1">Search</button>
+	<input type="search" placeholder = "Are you searching for something?"id=site-search name="q">	  
+  <script src="hamburger.js" defer ></script>
+  <!-- <script src="schedule.js" defer ></script> -->
+</head>
+<body>
+	<a class = "button" onclick= "window.location.href = '/account.html';">My account</a>
+<div id="wrapper"> <!-- to style for smaller screen -->
+	<header>
+	   <h1>Your library</h1>	   
+	   <a id="hamburger">
+		<i class="fa-solid fa-bars"></i>
+	</a>
+   </header>
+ 
+   <nav id="mainNav" >	 
+	 <a class = "button" onclick ="window.location.href = 'index.html';">Home</button>
+   	 <a class = "button" onclick= "window.location.href = 'contact.html';">Contact</a>
+	 <a class = "button" onclick= "window.location.href = 'classes.html';">What's on</a>
+	 <a class = "button" onclick= "window.location.href = 'booking.html';">Book an activity</a>
+	 <a class="button" onclick="window.location.href = '/account.html';" aria-label="My Account">My account</a>
+	 
+ </nav>
+
+<main>
+    <section>
+		 <!-- <article class="service">
+			<h2> Library name</h2>
+			<ul>
+				<li> Any library, Library Road, Anytown, Countyshire, AN12 T45</li>
+				<br>
+				<li><b>Opening hours:</b></li>
+				<br>
+				<li>Monday: 	09:00 - 17:00</li>
+				<li>Tuesday:	09:00 - 17:00</li>
+				<li>Wednesday:	09:00 - 17:00</li>
+				<li>Thursday: 	09:00 - 17:00</li>
+				<li>Friday: 	09:00 - 17:00</li>
+				<li>Sturdayday: 09:00 - 17:00</li>
+				<li>Sunday: 	Closed</li>
+			</ul>
+			<br>
+			<h3>
+				Facilities
+			</h3>
+			<ul>
+				
+				<li>Accesible toilet</li>
+				<li>Fully accessible</li>
+				<li>Bookable laptops</li>
+				<li>Open access</li>
+				<li>Baby weighing facilities</li>
+				<li>Free wi fi</li>
+				<li>Disabled parking</li>
+				<li>Automatic doors</li>
+			</ul>
+			<figure>
+				<img src="images/library.png" alt="Cartoon of the outside of a library building.">
+			</figure>
+			<div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2421.781254813634!2d1.2885398769744103!3d52.627796972089726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d9e3e13ee2014d%3A0x3f52dd16e9bf1bc!2sNorwich%20Millennium%20Library!5e0!3m2!1sen!2suk!4v1689671077997!5m2!1sen!2suk" width="250" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+		</article> 
+		<article class="service"> -->
+			<!DOCTYPE html>
+<html>
+<body>
+
+	<form id="myForm">
+	<input type="search" id="mySearch">
+	</form>
+
+	<p>Click the button to search for your library</p>
+
+	<button onclick="myFunction()">Search for your library</button>
+
+	<p id="demo"></p>
+<!-- 
+	<script>
+	function myFunction() {
+	var x = document.getElementById("mySearch").form.id;
+	document.getElementById("demo").innerHTML = x;
+	} -->
+	</script>
+
+</body>
+</html>
+		<article class = "library">
+			<h2> Library name</h2>
+			
+				<h3> Any library, Library Road, Anytown, Countyshire, AN12 T45</h2>
+				<br>
+				<h3><b>Opening hours:</b></h3>
+				<br>
+			<ul style = "list-style-type:disc;">
+				<li>Monday: 	09:00 - 17:00</li>
+				<li>Tuesday:	09:00 - 17:00</li>
+				<li>Wednesday:	09:00 - 17:00</li>
+				<li>Thursday: 	09:00 - 17:00</li>
+				<li>Friday: 	09:00 - 17:00</li>
+				<li>Sturdayday: 09:00 - 17:00</li>
+				<li>Sunday: 	Closed</li>
+			</ul>
+			<br>
+			<h2>
+				Facilities
+			</h2>
+			<ul style = "list-style-type:disc;">
+				
+				<li>Accessible toilet</li>
+				<li>Fully accessible</li>
+				<li>Bookable laptops</li>
+				<li>Open access</li>
+				<li>Baby weighing facilities</li>
+				<li>Free wi fi</li>
+				<li>Disabled parking</li>
+				<li>Automatic doors</li>
+			</ul>
+			<figure>
+				<img src="images/library.png" alt="Cartoon of the outside of a library building.">
+			</figure>
+			<br>
+			<br>			
+		</article>
+		<div id = "maps"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2421.781254813634!2d1.2885398769744103!3d52.627796972089726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d9e3e13ee2014d%3A0x3f52dd16e9bf1bc!2sNorwich%20Millennium%20Library!5e0!3m2!1sen!2suk!4v1689671077997!5m2!1sen!2suk" ></iframe></div>
+		
+	</section>
+</main>
+<footer>
+	<section class = "social__media">
+		<div class="social__media--wrap">
+			<p class = "website__rights">&copy; My library website. 2023 All rights reserved. We love our users!</p>				
+			<div class="social__icons">
+				<a href="/" class="social__icon--link" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+				<a href="/" class="social__icon--link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+				<a href="/" class="social__icon--link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+			</div>
+		</div>	
+	</section>
+	  <!-- Back to Top button -->	  
+	<button class = "button" onclick = "window.location.href='https/www.norfolk.gov.uk';" aria-label ="Other County Council Services">Other County Council Services</a>
+		<button id="backToTopBtn" aria-label="Back to Top" title="Back to Top"><i class="fas fa-arrow-up"></i>
+		  </button>
+</footer>
+</div>
+	<script src="hamburger.js" defer ></script>
+	<script src="dom.js" defer ></script>
+	<!-- <script src="map.js" defer ></script> -->
+	<script src="scrollToTop.js" defer ></script>
+</body>
+</html>

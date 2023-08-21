@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Book an activity</title>
+    <link rel="stylesheet" href="library.css"> 
+    <script src="hamburger.js" defer ></script>
+</head>
+<body>
+    <div id="wrapper"> <!-- to style for smaller screen -->   
+    <link rel="stylesheet" href="library.css"> 
+    <script src="https://kit.fontawesome.com/67bd86ffdc.js" crossorigin="anonymous"></script>
+      <a href="/" id="navbar__logo"><i class="fas fa-search"></i>
+      <label for="site-search">Search the site:</label> <button class = "btn1" aria-label ="Search">Search</button>
+     <input type="search" placeholder = "Are you searching for something?"id=site-search name="q">     
+    <script src="hamburger.js" defer ></script>
+       <a class = "button" onclick= "window.location.href = '/account.html';" aria-label = "My Account">My account</a>      
+  <header>
+      <h1>Your library</h1>
+       <a id="hamburger" aria-label="Menu">
+        <i class="fa-solid fa-bars"></i>
+      </a>
+  </header>
+
+<nav id="mainNav" >	
+    
+    <a class = "button" onclick ="window.location.href = 'index.html';">Home</button>
+  <!-- <li class="nav"><a href="classes.html">What's on</a></li> --> 
+    <a class = "button" onclick= "window.location.href = 'schedule.html';" aria-label ="Libraries">Libraries</button>
+    <a class = "button" onclick= "window.location.href = '/contact.html';" aria-label ="Contact">Contact</a>
+    <a class = "button" onclick= "window.location.href = '/classes.html';" aria-label ="What's on">What's on</a>
+    <a class="button" onclick="window.location.href = '/account.html';" aria-label="My Account">My account</a>
+</nav>
+<main>
+  <form  action="" id="booking-form">
+        <label for="name">Type your name here</label>
+        <br>
+        <input type="text" name="name" id="name" required>
+        <br>
+        <br>
+        <label for="email">Email details here</label>
+        <br>
+        <input type="email" name="email" id="email" required>
+        <br>
+        <br>
+        <label for="entry">Select an activity</label>
+        <br>
+    <select name="chooseActivity" aria-label="Select an activity">
+        <option value="laptop">book a laptop</option>
+        <option value="surfers">silver surfers</option>
+        <option value="bandr">bounce and rhymetime</option>
+    </select>
+    <br>
+    <br>
+    <label for="leave">Choose a date</label>
+    <br>
+    <input type="date" id="leave" name="leave" required>
+    <br>
+    <br>
+    <label for="type">Which library would you like?</label>
+    <br>
+    <select name="chooseLibrary" aria-label="Select a library">
+        <option value="Aylsham">Aylsham</option>
+        <option value="Attleborough">Attleborough</option>
+        <option value="Cromer">Cromer</option>
+        <option value="Luton">Luton</option>
+        <option value="Bedford">Bedford</option>
+        <option value="Chelmsford">Chelmsford</option>
+        <option value="Earl's Colne">Earl's Colne</option>
+        
+    </select>
+               
+                <br>
+                <br>
+                <label id="notesID" for="notes">Accessibility requests</label>
+                <br>
+                <textarea name="notes" id="notes" cols="50" rows="8" placeholder="If you have any accessibilty requests, please let us know here..."></textarea>
+                <br>
+                <a class = "button" onclick= "window.location.href = 'success.html';">Book now</a>
+            </form>
+        </main>
+        <footer>
+            <section class = "social__media">
+                <div class="social__media--wrap">
+                    <p class = "website__rights">&copy; My library website. 2023 All rights reserved. We love our users!</p>				
+                    <div class="social__icons">
+                        <a href="/" class="social__icon--link" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="/" class="social__icon--link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="/" class="social__icon--link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>	
+            </section>
+              <!-- Back to Top button -->	  
+            <button class = "button" onclick = "window.location.href='https/www.norfolk.gov.uk';" aria-label ="Other County Council Services">Other County Council Services</a>
+                <button id="backToTopBtn" aria-label="Back to Top" title="Back to Top"><i class="fas fa-arrow-up"></i>
+                  </button>
+        </footer>
+        </div>
+            <script src="hamburger.js" defer ></script>
+            <!-- <script src="map.js" defer ></script> -->
+            <script src="scrollToTop.js" defer ></script>
+        </body>
+        </html>
